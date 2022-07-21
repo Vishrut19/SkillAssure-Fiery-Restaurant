@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "SkillAssure-Angular-Solution"
+  "defaultProject": "SkillAssure-Angular-Solution",
+  "cli": {
+    "analytics": "b833ead1-8d67-4757-ba07-055af606ef07"
+  }
 }
